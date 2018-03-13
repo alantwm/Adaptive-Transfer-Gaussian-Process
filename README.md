@@ -1,6 +1,6 @@
 # Adaptive-Transfer-Gaussian-Process
 
-ATGP is a gaussian process-based supervised transfer learning algorithm based on a paper by Cao et. al. Hyperparameters (squared exponential kernel function) are optimized using CMAES in this implementation.
+ATGP is a gaussian process-based supervised transfer learning algorithm based on a paper by Cao et. al. This implementation  utilizes the squared exponential kernel function and the associated hyperparameters are optimized using global search algorithm (CMAES) in this implementation.
 
 ATGP takes as inputs (x_target,y_target,x_source,y_source).
 
